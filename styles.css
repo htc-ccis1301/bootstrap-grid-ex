@@ -1,9 +1,70 @@
-h3,h1,p {
-    text-align: center;
+
+
+
+html {
+    /* Needed to fix footer at bottom of browser */
+    position: relative;
+    min-height: 100%;
 }
 
-ul {
-    list-style: none;
-    text-align: center;
+body {
+    /* Move down content because of fixed navbar at top */
+    padding-top: 50px;
+    /* Set margin bottom allow for footer height */
+    margin-bottom: 50px;
+    background-color: #A2C0a7;
+    background-image: url(images/tartan.png);
 }
-.container {margin: auto;}
+
+#main {
+    background-color: #fbe7d4;
+    padding-bottom: 25px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-bottom: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #5e2241;
+    color: #ceaebf;
+    text-align: center;
+    padding: 15px;
+}
+
+.jumbotron {
+    background-image: url(images/veggies-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    color: #000000;
+    margin-top: 15pxco padding bottom: 25px;
+    text-align: center;
+    text-shadow: 3px 3px 4px #FBE7D4;
+}
+
+.jumbotron small {
+    color: #1f5829;
+}
+
+.jumbotron p {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.navbar-inverse .navar-brand {
+    color: #ceaebf;
+}
+
+.navbar-inverse {
+    background-color: #5e2241;
+    border-color: #5e2241;
+}
+
+.navbar-inverse .btn {
+    background-color: #ceaebf;
+    color: #5e2241;
+}
