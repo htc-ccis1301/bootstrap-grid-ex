@@ -1,0 +1,9 @@
+h3,h1,p {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+.container {margin: auto;}
